@@ -13,9 +13,9 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 generatedPassword = []
-checkLetterLimit = 1
-checkSymbolLimit = 1
-checkNumberLimit = 1
+checkLetterLimit = 0
+checkSymbolLimit = 0
+checkNumberLimit = 0
 
 for currentIteration in range(0, nr_letters+nr_symbols+nr_numbers):
     chooseCharType = random.randint(0,2)
