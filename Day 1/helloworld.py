@@ -1,8 +1,8 @@
-#print("Hello " + input("What is your name? ") + "!")
+print("Hello " + input("What is your name? ") + "!")
 
-# username = input("What is your username? ")
-# length = len(username)
+username = input("What is your username? ")
+length = len(username)
 
-# print(username)
-# print(length)
+print(username)
+print(length)
 

@@ -1,45 +1,45 @@
-# print("Welcome to the rollercoaster?")
-# height = int(input("What is your height in cm?\n"))
+print("Welcome to the rollercoaster?")
+height = int(input("What is your height in cm?\n"))
 
-# if height >= 120:
-#     print("You can ride the rollercoaster")
-# else:
-#     print("You cannot ride the rollercoaster")
+if height >= 120:
+    print("You can ride the rollercoaster")
+else:
+    print("You cannot ride the rollercoaster")
 
 
 #========================================================
 
-#checkNum = int(input("What is your number?\n"))
+checkNum = int(input("What is your number?\n"))
 
-# if checkNum % 2 == 0:
-#     print(f"{checkNum} is even")
-# else:
-#     print(f"{checkNum} is odd")
+if checkNum % 2 == 0:
+    print(f"{checkNum} is even")
+else:
+    print(f"{checkNum} is odd")
 
 #Shorter version
  
-# if int(input("What is your number?\n")) % 2 == 0:
-#     print("The number is even")
-# else:
-#     print("The number is odd")
+if int(input("What is your number?\n")) % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
 
 #========================================================
 
-# print("Welcome to the rollercoaster?")
-# height = int(input("What is your height in cm?\n"))
+print("Welcome to the rollercoaster?")
+height = int(input("What is your height in cm?\n"))
 
-# if height >= 120:
-#     print("You can ride the rollercoaster")
-#     age = int(input("What is your age?\n"))
+if height >= 120:
+    print("You can ride the rollercoaster")
+    age = int(input("What is your age?\n"))
 
-#     if age <= 12:
-#         print("Please pay $5")
-#     elif age <= 18:
-#         print("Please pay $7")
-#     else:
-#         print("Please pay $12")
-# else:
-#     print("You cannot ride the rollercoaster")
+    if age <= 12:
+        print("Please pay $5")
+    elif age <= 18:
+        print("Please pay $7")
+    else:
+        print("Please pay $12")
+else:
+    print("You cannot ride the rollercoaster")
 
 #========================================================
 
